@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Виртуальная лаборатория по биологии – Главная</title>
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/app.js"></script>
+<script defer src="assets/search.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <a href="index.html" class="brand-link" aria-label="На главную">
+        <span class="logo" aria-hidden="true">🔬</span>
+        <span class="brand-text">Виртуальная лаборатория по биологии</span>
+      </a>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="5-9/index.html">5–9</a>
+      <a href="10-11/index.html">10–11</a>
+      <a href="labs/index.html">Лабораторные</a>
+      <a href="search.html" class="search-link" aria-label="Поиск">Поиск</a>
+      <a href="about.html">О проекте</a>
+    </nav>
+  </div>
+</header>
+<main class="container">
+<section class="hero">
+  <h1>Бесплатная «виртуальная лаборатория» по биологии</h1>
+  <p>Готовый сайт для 5–9 (ФГОС) и углублённый для 10–11 классов (подготовка к ЕГЭ). Вставляйте свои симуляции (Lumi/H5P, LabXchange, BioInteractive), видео, Stepik и Google‑Forms.</p>
+  <div class="small">Подсказка: загрузите HTML‑экспорт из Lumi в папку <code>/h5p</code> и встраивайте на страницы лабораторных.</div>
+</section>
+
+<div class="grid three">
+  <div class="card">
+    <h3>5–9 классы <span class="badge">ФГОС</span></h3>
+    <p>Годовые разделы, лабораторные и проверочные. Темы соответствуют школьной программе.</p>
+    <a class="btn" href="5-9/index.html">Открыть раздел</a>
+  </div>
+  <div class="card">
+    <h3>10–11 классы <span class="badge">углублённый</span></h3>
+    <p>Молекулярная биология, генетика, физиология, экология + тренажёр ЕГЭ.</p>
+    <a class="btn" href="10-11/index.html">Открыть раздел</a>
+  </div>
+  <div class="card">
+    <h3>Каталог лабораторных</h3>
+    <p>Сборник страниц‑шаблонов для симуляций: осмос, естественный отбор, PCR и др.</p>
+    <a class="btn" href="labs/index.html">Посмотреть</a>
+  </div>
+</div>
+
+<h2>Как использовать</h2>
+<ol>
+  <li>Поместите свои H5P‑интерактивы в папку <code>/h5p</code> (экспорт Lumi: HTML Standalone).</li>
+  <li>Вставьте Stepik/Forms через <code>&lt;iframe&gt;</code> на шаблонных страницах.</li>
+  <li>Опубликуйте сайт на GitHub Pages.</li>
+</ol>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="grid two">
+      <div>
+        <strong>Свободный учебный проект</strong><br>
+        Развёртывание на GitHub Pages. Интерактивы (H5P/Stepik/Forms) встраиваются через <code>&lt;iframe&gt;</code>.
+      </div>
+      <div class="right small">© 2025</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
